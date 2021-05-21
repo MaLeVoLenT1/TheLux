@@ -1,0 +1,1 @@
+This the blog page.
