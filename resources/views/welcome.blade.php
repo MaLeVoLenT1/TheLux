@@ -11,6 +11,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        <link href="//db.onlinewebfonts.com/c/02c5086e8616653dade6e7cb3a1f0498?family=LTCBodoni175W01-Regular" rel="stylesheet" type="text/css"/>
 
         <!-- Styles -->
         <link href="{{ asset('css/landing.css') }}" rel="stylesheet">
