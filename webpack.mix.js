@@ -30,6 +30,7 @@ mix.scripts([
 ], 'public/js/vendor.js');
 
 mix.sass('resources/sass/landing.scss', 'public/css');
+mix.copyDirectory('resources/img/', 'public/images');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
