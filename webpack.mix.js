@@ -29,8 +29,12 @@ mix.scripts([
     'resources/js/lib/jquery.fixedheadertable.js',
 ], 'public/js/vendor.js');
 
-mix.sass('resources/sass/landing.scss', 'public/css');
+mix.sass('resources/sass/landing.scss', 'public/css') .options({
+    processCssUrls: false
+});
 mix.copyDirectory('resources/img/', 'public/images');
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+mix.js('resources/js/app.js', 'public/js');
+mix.sass('resources/sass/app.scss', 'public/css') .options({
+    processCssUrls: false
+});

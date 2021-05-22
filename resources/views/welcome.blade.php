@@ -18,19 +18,21 @@
 
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                <div class="title m-b-md">
-                    The Lux Suites
-                </div>
-
-                <div class="links">
-                    <a href="{{ url('home') }}">Home</a>
-                    <a href="{{ route('about') }}">About</a>
-                    <a href="{{ route('contact') }}">Location</a>
-                    <a href="{{ route('blog') }}">Blog</a>
-                </div>
+        <div class="lux-background">
+            <img class="lux-icon" src="{{asset("/images/banner/lux/banner_icon.png")}}">
+            <img class="lux-icon" src="{{asset("/images/banner/lux/banner_logo.png")}}">
+            <div class="links">
+                <a href="{{ url('home') }}">Home</a>
+                <a href="{{ route('about') }}">About</a>
+                <a href="{{ route('contact') }}">Location</a>
+                <a href="{{ route('blog') }}">Blog</a>
             </div>
         </div>
+
+
+
+
+
+
     </body>
 </html>
