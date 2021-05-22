@@ -8,12 +8,6 @@
     <meta name="author" content="The Lux Suites">
     <title>The Lux Suites</title>
     <link rel="icon" type="image/png" href="{{ asset("/images/logos/TheLux/favicon.png") }}">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-    <link href="//db.onlinewebfonts.com/c/02c5086e8616653dade6e7cb3a1f0498?family=LTCBodoni175W01-Regular" rel="stylesheet" type="text/css"/>
-
-    <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
@@ -103,6 +97,54 @@
 
                 </div>
 
+            </div>
+
+            <!-- News Display -->
+            <div class="post-parallax">
+                <div class="lux-style-bar"></div>
+                <div class="relative page-content">
+                    <div class="dark-overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="v-middle">
+                                    <h3 class="light-txt text-uppercase">Skills and Experience</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="light-txt space">
+                                    <h4 class="text-uppercase light-txt">
+                                        We are damn expart !
+                                    </h4>
+                                    <p class="light-txt">
+                                        We are a team of multi-skilled and curious digital specialists who are always up for a massive challenge forever. We are a team of multi-skilled and curious digital specialists who are always up for a massive challenge forever.
+                                    </p>
+                                    <div class="p-top-30">
+                                        <div class="progress massive-progress">
+                                            <div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar">
+                                                HTML / CSS / JQUERY
+                                                <span>80%</span>
+                                            </div>
+                                        </div>
+                                        <div class="progress massive-progress">
+                                            <div role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar">
+                                                PHOTOSHOP
+                                                <span>90%</span>
+                                            </div>
+                                        </div>
+                                        <div class="progress massive-progress">
+                                            <div role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" class="progress-bar">
+                                                GRAPHIC DESIGN
+                                                <span>75% </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="float: left;" class="lux-style-bar"></div>
             </div>
         </div>
 
