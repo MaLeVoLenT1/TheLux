@@ -30,7 +30,7 @@
                 <li class="link-item" style="padding: 0;"> <a href="javascript:void(0)">|</a> </li>
                 <li class="link-item" style="padding: 0;"><a href="{{url("/blog")}}">News</a> </li>
                 <li class="link-item" style="padding: 0;"> <a href="javascript:void(0)">|</a> </li>
-                <li class="link-item" style="padding: 0; margin-right: 15px;"><a href="{{url("/home")}}">Home</a> </li>
+                <li class="link-item" style="padding: 0; margin-right: 15px;"><a class="link-color-faded" href="javascript:void(0)">Home</a> </li>
             </ul>
 
         </div>

@@ -24,7 +24,7 @@
 
         <!-- Right Side of Menu -->
         <ul class="link-list">
-            <li class="link-item" style="padding: 0;"> <a href="{{url("/about")}}">About</a> </li>
+            <li class="link-item" style="padding: 0;"> <a class="link-color-faded" href="javascript:void(0)">About</a> </li>
             <li class="link-item" style="padding: 0;"> <a href="javascript:void(0)">|</a> </li>
             <li class="link-item" style="padding: 0;"> <a href="{{url("/contact")}}">Contact</a> </li>
             <li class="link-item" style="padding: 0;"> <a href="javascript:void(0)">|</a> </li>

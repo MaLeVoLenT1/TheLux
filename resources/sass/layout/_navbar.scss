@@ -333,9 +333,9 @@
 
 .menuzord-menu ul.dropdown,
 .menuzord-menu ul.dropdown li ul.dropdown{
-  @include overlord-gradient();
-  @include overlord-shadow();
-  @include overlord-border-medium();
+  // @include overlord-gradient();
+  // @include overlord-shadow();
+  // @include overlord-border-medium();
 }
 
 .menuzord-menu ul.dropdown li:hover > a{
@@ -343,9 +343,9 @@
 }
 
 .menuzord-menu > li > .megamenu {
-  @include overlord-gradient();
-  @include overlord-shadow();
-  @include overlord-border-medium();
+  // @include overlord-gradient();
+  // @include overlord-shadow();
+  // @include overlord-border-medium();
 }
 
 .menuzord-tabs-nav > li > a {
