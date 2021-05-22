@@ -118,11 +118,17 @@ body {
     -webkit-box-shadow: rgb(0 0 0 / 70%) 0 1px 8px, inset rgb(0 0 0 / 40%) 0 0 0 1px;
     box-shadow: rgb(0 0 0 / 70%) 0 1px 8px, inset rgb(0 0 0 / 40%) 0 0 0 1px;
 }
-
+.overflowFix {
+    overflow: hidden;
+}
 .lux-panel{
     width: 100%;
-    padding: 40px 0;
+    padding: 40px 0 75px 0;
+}
 
+.lux-footer{
+    margin-top: 60px;
+    padding: 100px;
 }
 
 .inline-block {
@@ -138,6 +144,10 @@ body {
     text-align: center;
 }
 
+.lux-small-pic{
+    width: 100%;
+    max-width: 200px;
+}
 .heading-title-alt {
     margin-bottom: 50px;
 }

@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="The Lux Website">
-        <meta name="keywords" content="Beauty, Salon">
+        <meta name="description" content="The Lux Salon and Spa Suites is a luxury salon suite and booth environment dedicated to salon professionals in the beauty industry.">
+        <meta name="keywords" content="Beauty, Salon, Hairstylists, Har Color Specialists, Waxing, Laser Hair Removal, Microblading, Makeup Artists, Cosmetologists,
+        Eyelash Stylists, Facialists, Estheticians, Barbers, Massage Therapists, Nail Technicians, Chiropractors, Acupuncturists, Tattoo Artists, Boutique Owners">
         <meta name="author" content="The Lux Suites">
         <title>The Lux Suites</title>
         <link rel="icon" type="image/png" href="{{ asset("/images/logos/TheLux/favicon.png") }}">
@@ -25,14 +26,9 @@
                 <a href="{{ url('home') }}">Home</a>
                 <a href="{{ route('about') }}">About</a>
                 <a href="{{ route('contact') }}">Location</a>
-                <a href="{{ route('blog') }}">Blog</a>
+                <a href="{{ route('blog') }}">News</a>
             </div>
         </div>
-
-
-
-
-
 
     </body>
 </html>
