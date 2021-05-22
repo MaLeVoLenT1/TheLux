@@ -55,7 +55,7 @@
                         <div class="heading-title-alt border-short-bottom text-center">
                             <h3 class="text-uppercase">Welcome!</h3>
                             <div class="half-txt">
-                                JOIN THE SUIT LIFE!
+                                JOIN THE SUITE LIFE!
                             </div>
                         </div>
                     </div>
@@ -100,6 +100,9 @@
         </div>
 
 
+
+        <!-- Footer -->
+        @include("parts.footer")
     </div>
 
 

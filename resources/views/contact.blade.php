@@ -45,6 +45,8 @@
         </div>
 
 
+        <!-- Footer -->
+        @include("parts.footer")
     </div>
 
 

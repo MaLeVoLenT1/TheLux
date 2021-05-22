@@ -91,6 +91,10 @@
             </div>
             <div style="float: left;" class="lux-style-bar"></div>
         </div>
+
+
+        <!-- Footer -->
+        @include("parts.footer")
     </div>
 
 

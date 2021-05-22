@@ -44,7 +44,6 @@
                 <div class="lux-style-bar"></div>
             </div>
 
-
             <!-- Page Body -->
             <div class="lux-panel page-content Panel-Color-Primary">
                 <div class="container">
@@ -55,7 +54,7 @@
                             <div class="heading-title-alt border-short-bottom text-center">
                                 <h3 class="text-uppercase">Welcome!</h3>
                                 <div class="half-txt">
-                                    JOIN THE SUIT LIFE!
+                                    JOIN THE SUITE LIFE!
                                 </div>
                             </div>
                         </div>
@@ -146,6 +145,9 @@
                 </div>
                 <div style="float: left;" class="lux-style-bar"></div>
             </div>
+
+            <!-- Footer -->
+            @include("parts.footer")
         </div>
 
 
