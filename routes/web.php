@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@landing')-> name('landing');
-//Route::any('/home', ['uses' => 'HomeController@index']) -> name("home");
 Route::view('//home', 'home')->name('home');
 Route::get('/about', 'HomeController@about') -> name('about');
 Route::get('/contact', 'HomeController@contact') -> name('contact');
