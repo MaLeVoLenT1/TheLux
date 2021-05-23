@@ -23,7 +23,7 @@
             <img class="lux-icon" src="{{asset("/images/banner/lux/banner_icon.png")}}">
             <img class="lux-icon" src="{{asset("/images/banner/lux/banner_logo.png")}}">
             <div class="links">
-                <a href="{{ url('home') }}">Home</a>
+                <a href="{{ route('home') }}">Home</a>
                 <a href="{{ route('about') }}">About</a>
                 <a href="{{ route('contact') }}">Location</a>
                 <a href="{{ route('blog') }}">News</a>
