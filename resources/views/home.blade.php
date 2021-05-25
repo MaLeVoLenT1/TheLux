@@ -18,7 +18,7 @@
 
         <!-- Lux Menu -->
         <div class="lux-menu">
-            <a href="{{url("/home")}}" class="link-home">
+            <a href="{{url("/")}}" class="link-home">
                 <img src="{{asset("/images/logos/TheLux/icon.png")}}" alt="The Lux Suites" class="menu-logo">
                 <span class="menu-title"> The Lux Suites </span>
             </a>
@@ -27,10 +27,10 @@
             <ul class="link-list">
                 <li class="link-item" style="padding: 0;"> <a href="{{url("/about")}}">About</a> </li>
                 <li class="link-item" style="padding: 0;"> <a href="javascript:void(0)">|</a> </li>
-                <li class="link-item" style="padding: 0;"> <a href="{{url("/contact")}}">Contact</a> </li>
+                <!-- <li class="link-item" style="padding: 0;"> <a href="{{url("/contact")}}">Contact</a> </li>
                 <li class="link-item" style="padding: 0;"> <a href="javascript:void(0)">|</a> </li>
                 <li class="link-item" style="padding: 0;"><a href="{{url("/blog")}}">News</a> </li>
-                <li class="link-item" style="padding: 0;"> <a href="javascript:void(0)">|</a> </li>
+                <li class="link-item" style="padding: 0;"> <a href="javascript:void(0)">|</a> </li> -->
                 <li class="link-item" style="padding: 0; margin-right: 15px;"><a class="link-color-faded" href="javascript:void(0)">Home</a> </li>
             </ul>
 

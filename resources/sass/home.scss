@@ -100,6 +100,15 @@ body {
     padding-top: 70px;
     width: 100%;
 }
+
+.lux-text-holder{
+    height: 100%;
+    width: 100%;
+
+    .lux-para{
+        float: left;
+    }
+}
 .lux-style-bar{
     background: -webkit-gradient(linear, left top, left bottom, from(#4c4c4c), color-stop(12%, #595959), color-stop(25%, #666666), color-stop(39%, #474747), color-stop(50%, #2c2c2c), color-stop(51%, black), color-stop(60%, #111111), color-stop(76%, #2b2b2b), color-stop(91%, #1c1c1c), to(#131313));
     background: linear-gradient(to bottom, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, black 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
