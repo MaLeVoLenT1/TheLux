@@ -76,9 +76,19 @@ html, body {
     position: absolute;
 }
 
+
+@media only screen and (max-device-width: 480px) {
+
+    .lux-icon {
+        max-width: 200% !important;
+        height: auto;
+    }
+}
+
+
+
 .lux-icon
 {
     position: absolute;
     max-width: 100%;
-    height: auto;
 }
